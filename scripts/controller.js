@@ -41,4 +41,7 @@ $(document).ready(function () {
 	$("#btnUnsubscribe").click(function () {
 		client.unsubscribe($("#topicToSubscribe").val());
 	});
+	$("#clearsms").click(function(){
+		$("#tbodyContainer").empty();
+	});
 });
