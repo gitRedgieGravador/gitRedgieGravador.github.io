@@ -1,0 +1,123 @@
+/* all global css are found here. */
+
+
+/* .grid {
+    display: grid;
+    grid-template-columns: auto;
+} */
+
+.white {
+    color: white !important;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cursor {
+    cursor: pointer !important;
+}
+
+.x-hidden {
+    overflow-x: hidden;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.justify {
+    text-justify: distribute !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+.transparent {
+    background-color: transparent !important;
+    background: transparent !important;
+    border: transparent !important;
+}
+
+.bold {
+    font-weight: bolder !important;
+}
+
+.hund {
+    height: 100% !important;
+}
+
+.index-2 {
+    z-index: 5 !important;
+}
+
+
+/* this area is for page not found */
+
+.st404 {
+    position: relative;
+    margin-top: -5%;
+    font-size: 200px;
+    font-family: Georgia, serif;
+    font-weight: bolder;
+    color: black;
+    text-decoration: underline;
+}
+
+.errortext {
+    position: relative;
+    padding-top: 10%;
+    width: 30%;
+    height: 30%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.pagenotfound {
+    position: relative;
+    margin-top: -3%;
+    font-size: 50px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .theme--light.v-card.v-card--outlined {
+        border: thin solid transparent !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .st404 {
+        position: relative;
+        margin-top: -5%;
+        font-size: 100px;
+        font-family: Georgia, serif;
+        font-weight: bolder;
+        color: black;
+        text-decoration: underline;
+    }
+    .errortext {
+        left: -7%;
+        position: relative;
+        padding-top: 10%;
+        width: 15%;
+        height: 15%;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        color: black;
+    }
+    .pagenotfound {
+        position: relative;
+        margin-top: -3%;
+        font-size: 25px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        color: black;
+    }
+}
+
+
+/* page not found css end here */
+
+
+/* .v-btn--block:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22) !important;
+} */
